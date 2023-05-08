@@ -1,6 +1,7 @@
-import requests,json
+import requests,json,os,time
 
 # daftar
+os.system("clear")
 nomor = int(input("Masukkan Target = "))
 jumlah = int(input("Jumlah = "))
 for i in range(jumlah):

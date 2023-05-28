@@ -17,7 +17,7 @@ banner = """
        4 -> Grup WhatsApp
 """
 
-os.input(banner.txt)
+os.print(banner.txt)
 print(author)
 print(banner)
 pilihOS = int(input("Pilih --> "))

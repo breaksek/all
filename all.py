@@ -1,7 +1,6 @@
 # modul
 import os,time
 
-
 banner = """
        1 -> DOS/Windows
        2 -> Termux/Linux

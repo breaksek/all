@@ -1,14 +1,6 @@
 # modul
 import os,time
 
-author = """
-<=================={ Author }=========================>
-<==                 BREAKSEK                        ==>
-<==       Github : github.com/breaksek/all          ==>
-<==         Tiktok : tiktok.com/@breaksek           ==>
-<==           Telegram : t.me/breaksek              ==>
-<=====================================================>
-"""
 
 banner = """
        1 -> DOS/Windows

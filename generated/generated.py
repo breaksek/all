@@ -20,7 +20,7 @@ simbol = "@#$_&-+()/*':;!?"
 
 # question
 digit = ga.blue+""" [?] Digit :"""+ga.end+"""\n     1. 4 Digit\n     2. 6 Digit\n     3. 8 Digit\n     4. 9 Digit\n     5. 12 Digit"""
-kombinasi = ga.blue+""" [?] Kombinasi :"""+ga.end+"""\n     1. huruf kecil + besar + angka + simbol\n     2. huruf kecil + besar + angka\n    3. huruf kecil + angka\n     4. huruf besar + angka"""
+kombinasi = ga.blue+""" [?] Kombinasi :"""+ga.end+"""\n     1. huruf kecil + besar + angka + simbol\n     2. huruf kecil + besar + angka\n     3. huruf kecil + angka\n     4. huruf besar + angka"""
 
 # program
 os.system("clear")

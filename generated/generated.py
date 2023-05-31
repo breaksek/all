@@ -1,5 +1,5 @@
 import os, time, random
-from banner.py import *
+from banner import *
 
 # coloring
 class colors:

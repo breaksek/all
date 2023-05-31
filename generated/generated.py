@@ -24,7 +24,7 @@ kombinasi = ga.blue+""" [?] Kombinasi :"""+ga.end+"""\n     1. huruf kecil + bes
 
 # program
 os.system("clear")
-print(banner)
+print(bann)
 print(digit)
 dig = int(input(" [!] Digit = "))
 if dig == 1:

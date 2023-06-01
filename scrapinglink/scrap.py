@@ -1,4 +1,4 @@
-import requests, r
+import requests, re
 
 os.system("pip install requests")
 os.system("clear")

@@ -1,4 +1,4 @@
-import requests, re, os, time
+import requests, r
 
 os.system("pip install requests")
 os.system("clear")

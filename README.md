@@ -1,1 +1,1 @@
-# all
+all merupakan sebuah tools yang menyediakan beberapa tools yang dibutuhkan para penetration 

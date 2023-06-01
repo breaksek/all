@@ -1,7 +1,6 @@
 import requests, re, os, time
 
-try:
-  os.system("pip install requests")
+os.system("pip install requests")
   
 target = input(" [!] Masukkan Target = ")
 html = requests.get(target).text

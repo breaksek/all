@@ -7,4 +7,5 @@ target = input(" [!] Masukkan Target ex(https://target.com) = ")
 html = requests.get(target).text
 links = re.findall('"(https?://.*?)"', html)
 for link in links:
-  print(" [!] Result =>\n" + link)
+  print(" [!] Result => ")
+  print(link)

@@ -24,7 +24,7 @@ kombinasi = ga.blue+""" [?] Kombinasi :"""+ga.end+"""\n     1. huruf kecil + bes
 # program
 os.system("clear")
 print(bann)
-digit = int(input(" [!] Digit ex(8)= "))
+digit = int(input(ga.green +" [!] Digit ex(8)= " + ga.end))
 print(kombinasi)
 kombo = int(input(" [!] Kombinasi = "))
 if kombo == 1:

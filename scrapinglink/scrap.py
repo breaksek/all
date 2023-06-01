@@ -8,4 +8,4 @@ html = requests.get(target).text
 links = re.findall('"(https?://.*?)"', html)
 print(" [!] Result =>")
 for link in links:
-  print(link)
+  print("       " + link)

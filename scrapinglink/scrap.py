@@ -1,6 +1,9 @@
-import requests, re
+import requests, re, os, time
 
-url = input(" [!] Masukkan Target = ")
+os.system("pip install requests")
+os.system("clear")
+
+url = input(" [!] Masukkan Target ex(https://target.com) = ")
 html = requests.get(url).text
 links = re.findall('"(https?://.*?)"', html)
 for link in links:

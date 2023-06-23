@@ -8,7 +8,7 @@ def domain_scanner(domain_name,sub_domnames):
     try :
       requests.get(url)
       print(f'  [•] Result : ')
-      except requests.ConnectionError;
+      execpt requests.ConnectionError;
       pass
   if __nama__ == '__main__':
     dom_name = input("Masukkan Target Domain : ")

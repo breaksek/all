@@ -2,7 +2,7 @@ import requests
 
 def domain_scanner(domain_name,sub_domnames):
   print(' [•] Result : ')
-  for subdomain in subdomnames:
+  for subdomain in sub_domnames:
     url = f"https://{subdomain}.{domain_name}"
     try :
       requests.get(url)

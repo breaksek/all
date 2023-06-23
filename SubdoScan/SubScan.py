@@ -9,4 +9,4 @@ def domain_scanner(domain_name,sub_domnames):
       print(f'  [•] Result : '\n)
       except requests.ConnectionError;
       pass
-  if __nama__ == '__main__'
+  if __nama__ == '__main__':

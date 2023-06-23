@@ -1,4 +1,4 @@
-import requests, os
+import requests
 
 def domain_scanner(domain_name,sub_domnames):
   print(' [•] Result : ')

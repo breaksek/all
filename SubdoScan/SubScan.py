@@ -1,11 +1,10 @@
-import requests
+import requests, os
 
 def domain_scanner(domain_name,sub_domnames):
   print(' [•] Result : ')
   for subdomain in subdomnames:
     url = f"https://{subdomain}.{domain_name}"
     try :
-      pip install requests
       requests.get(url)
       print(f'  [•] Result : ')
       except requests.ConnectionError;

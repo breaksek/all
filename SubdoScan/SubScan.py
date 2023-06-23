@@ -1,7 +1,6 @@
 import requests, os
 
-def domain_scanner(domain_name,sub_domnames):
-  os.system("pip install requests")
+def domain_scanner(domain_name,sub_domnames)
   print(' [•] Result : ')
   for subdomain in subdomnames:
     url = f"https://{subdomain}.{domain_name}"
